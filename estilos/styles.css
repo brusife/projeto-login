@@ -2,8 +2,8 @@
 
 /* 
     PALETA DE CORES
-    Verde: #49a09d
-    Cinza Escuro: #585858
+    Cinza Escuro: #292929
+    Cinza : #585858
 */
 
 * {
@@ -38,6 +38,9 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
